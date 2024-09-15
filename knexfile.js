@@ -13,10 +13,10 @@ module.exports = {
       port: process.env.PG_PORT
     },
     migrations: {
-      directory: './migrations',
+      directory: './src/db/migrations',
     },
     seeds: {
-      directory: './seeds'
+      directory: './src/db/seeds'
     }
   },
   production: {
@@ -30,10 +30,10 @@ module.exports = {
       ssl: { rejectUnauthorized: false },
     },
     migrations: {
-      directory: './migrations',
+      directory: './src/db/migrations',
     },
     seeds: {
-      directory: './seeds',
+      directory: './src/db/seeds'
     },
   },
 };
