@@ -1,4 +1,5 @@
 const express = require("express");
+const path = require('path');
 const app = express();
 const productsRouter = require("./products/products.router");
 const categoriesRouter = require("./categories/categories.router");
@@ -9,6 +10,12 @@ app.use(express.json());
 app.use("/products", productsRouter);
 app.use("/categories", categoriesRouter);
 app.use("/suppliers", suppliersRouter);
+
+app.get('/', (req, res) => {
+  res.send('Welcome to your express app :)')
+});
+
+app.use(express.static(path.join(__dirname, 'public')));
 
 // Not found handler
 app.use((req, res, next) => {
