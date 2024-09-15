@@ -7,6 +7,8 @@ exports.up = function (knex) {
       table.increments("product_id").primary(); // Sets `product_id` as the primary key
       table.string("product_sku");
       table.string("product_name");
+      table.string("product_title")
+      table.integer("product_price");
       table.text("product_description");
       table.integer("product_quantity_in_stock");
       table.decimal("product_weight_in_lbs");
