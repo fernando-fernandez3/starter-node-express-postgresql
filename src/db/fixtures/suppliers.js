@@ -1,5 +1,6 @@
 module.exports = [
   {
+    supplier_id: 1,
     supplier_name: "Pas",
     supplier_address_line_1: "4951  Godfrey Road",
     supplier_address_line_2: "",
@@ -13,6 +14,7 @@ module.exports = [
     supplier_type_of_goods: "Homeware",
   },
   {
+    supplier_id: 2,
     supplier_name: "Ujoox's",
     supplier_address_line_1: "2781  Lena Lane",
     supplier_address_line_2: "",
@@ -26,6 +28,7 @@ module.exports = [
     supplier_type_of_goods: "Books",
   },
   {
+    supplier_id: 3,
     supplier_name: "Shiak's",
     supplier_address_line_1: "3882 Orphan Road",
     supplier_address_line_2: "",
@@ -38,6 +41,7 @@ module.exports = [
     supplier_type_of_goods: "Mugs",
   },
   {
+    supplier_id: 4,
     supplier_name: "Efeeps",
     supplier_address_line_1: "3578 Red Dog Road",
     supplier_address_line_2: "",
@@ -51,6 +55,7 @@ module.exports = [
     supplier_type_of_goods: "Jewelry",
   },
   {
+    supplier_id: 5,
     supplier_name: "Voorsat",
     supplier_address_line_1: "1612  Vine Street",
     supplier_address_line_2: "",
